@@ -13,8 +13,8 @@
         "build": "cross-env NODE_ENV=production webpack -p"
     },
     "dependencies": { 
-        "@fract/core": "^0.2.0",
-        "@fract/jsx": "^0.2.0"
+        "@fract/core": "^0.2.1",
+        "@fract/jsx": "^0.2.1"
     },
     "devDependencies": {
         "@babel/cli": "^7.10.4",
