@@ -27,7 +27,7 @@ module.exports = {
 
     plugins: [
         new HtmlPlugin({
-            title: 'Fractal boilerplate',
+            title: 'WhatsUp boilerplate',
             inject: true,
             hash: true,
             cache: true,
