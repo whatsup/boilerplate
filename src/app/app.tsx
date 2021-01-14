@@ -1,15 +1,15 @@
 import styles from './app.scss'
-import { Fractal, observable } from '@fract/core'
+import { Fractal, conse } from 'whatsup'
 import { Color, Palette } from './app.const'
 
 export class App extends Fractal<JSX.Element> {
-    readonly color = observable(Color.Cyan);
+    readonly color = conse(Color.Cyan);
 
-    *stream() {
+    *whatsUp() {
         while (true) {
             yield (
                 <Container color={yield* this.color}>
-                    <Title>Welcome to Fractal</Title>
+                    <Title>Welcome to Whats Up</Title>
                     <ColorBtns>
                         {Palette.map((color) => (
                             <ColorBtn key={color} color={color} onMouseEnter={() => this.color.set(color)} />

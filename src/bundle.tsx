@@ -1,4 +1,4 @@
 import { App } from './app'
-import { render } from '@fract/jsx'
+import { render } from '@whatsup-js/jsx'
 
 render(new App())
